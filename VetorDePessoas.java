@@ -1,6 +1,6 @@
+package com.company;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class VetorDePessoas {
     public void printa(){
         for (int i = 0; i <pessoas.size() ; i++) {
             Pessoa temp=(Pessoa)pessoas.get(i);
-            System.out.println("Nome: "+temp.getNome()+" Idade: "+temp.getIdade());
+            System.out.println("Nome: "+temp.getNome()+"|| Idade: "+temp.getIdade());
         }
     }
 }
